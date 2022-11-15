@@ -19,9 +19,9 @@ function CategoryDetail({ description }: Props) {
                 <i className='fs-3'>{quoteString}</i>
                 <p className='text-right mt-2'>By: <b>{author}</b></p>
 
-                <div className='mt-5'>
+                <div className='mt-5 row justify-content-center '>
                     {tags?.map((tag, index) => (
-                        <span key={`tag-${index}`} className={`${styles.tag} rounded`}>{tag.name}</span>
+                        <div key={`tag-${index}`} className={`${styles.tag} rounded col-md-3 col-sm-12 d-flex justify-content-center align-items-center`}>{tag.name}</div>
                     ))}
                 </div>
             </div>
