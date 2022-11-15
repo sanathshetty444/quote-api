@@ -1,0 +1,23 @@
+.categoryCard {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: lightsalmon;
+    margin: 10px 0px;
+}
+
+.quoteString {
+    top: 30%;
+    width: 60%;
+    left: 20%;
+    z-index: 100;
+    color: black;
+}
+
+.tag {
+    padding: 5px 20px;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    width: 15px;
+    margin-left: 10px;
+}
